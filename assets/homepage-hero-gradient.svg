@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="637px" viewBox="0 0 1440 637" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50.0004937%" y1="61.9733402%" x2="50.0004937%" y2="5.00896766%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2891C5" stop-opacity="0.844754985" offset="56.0383305%"></stop>
+            <stop stop-color="#01117A" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0 0.26741625 1647.83655 0.26741625 1647.83655 510.225918 0 510.225918"></polygon>
+        <linearGradient x1="50%" y1="11.5831109%" x2="50%" y2="82.1976549%" id="linearGradient-4">
+            <stop stop-color="#001A7E" offset="0%"></stop>
+            <stop stop-color="#007CBB" offset="45.9037077%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage">
+            <g id="Group-2" transform="translate(-136.000000, 0.000000)">
+                <rect id="Rectangle-Copy-22" fill="url(#linearGradient-1)" x="133" y="0" width="1444" height="1028"></rect>
+                <g id="Group-10-Copy">
+                    <g id="Group-3-Copy">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M823.191429,509.810095 C511.875549,331.283333 339.299019,279.929167 43.6215895,271.889918 C19.5411435,271.19688 -0.0415180103,248.603819 0.0276786735,220.466449 C0.51205546,148.529034 -0.179911378,110.619819 0.0276786735,45.8900066 C0.166072041,19.9703602 18.9183734,-0.474280663 41.0613122,0.288061878 C331.341401,10.4064265 503.848734,61.8298961 811.2896,234.11931 C815.510597,236.406338 820.077579,237.653808 824.713756,237.653808 C829.349934,237.653808 833.916915,236.406338 838.068716,234.11931 C1142.74172,63.6317967 1314.2111,11.6538961 1599.37063,0.981100552 C1625.66537,0.0108464088 1647.73911,24.7523271 1647.80831,55.4539403 C1647.9467,142.984725 1647.53152,223.238603 1647.53152,223.238603 C1647.53152,250.613631 1628.22565,272.721565 1604.76797,273.275996 C1310.82046,280.414294 1141.15019,332.66941 826.30528,509.810095 C825.68251,509.948703 825.336527,510.018007 824.713756,510.225918 C654.200639,567.151664 979.134147,599.236784 823.191429,509.810095 Z" id="Fill-1" fill="url(#linearGradient-4)" mask="url(#mask-3)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

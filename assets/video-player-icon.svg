@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="144px" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>movie-player-play-button copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.725005463">
+        <g id="First-Officers---Inner-Page" transform="translate(-650.000000, -2573.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="movie-player-play-button-copy" transform="translate(650.000000, 2573.000000)">
+                <path d="M72,0 C32.2325486,0 0,32.2325486 0,72 C0,111.76704 32.2325486,144 72,144 C111.76704,144 144,111.76704 144,72 C144,32.2325486 111.76704,0 72,0 Z M106.429326,77.7370902 L63.8853664,107.060541 C62.701801,107.872722 61.3242352,108.288 59.9430014,108.288 C58.8311672,108.288 57.7274843,108.023398 56.7110201,107.491336 C54.4266247,106.280618 52.992,103.907368 52.992,101.324232 L52.992,42.6765136 C52.992,40.0933777 54.4266247,37.7197185 56.7110201,36.5090012 C58.9954154,35.3084923 61.7554378,35.4738685 63.8853664,36.939796 L106.429326,66.2628384 C108.311863,67.561348 109.44,69.7096056 109.44,71.9999643 C109.44,74.2903229 108.312271,76.4385805 106.429326,77.7370902 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
