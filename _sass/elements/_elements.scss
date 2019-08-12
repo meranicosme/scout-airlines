@@ -8,7 +8,7 @@ a[href][class] {
   @include default-link;
 }
 
-ul:not([class]) {
+ul {
   @include default-ul;
 }
 
