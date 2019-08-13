@@ -7,6 +7,7 @@
   }
 
   &__link {
+    position: relative;
     display: block;
     width: 100%;
   }
@@ -16,23 +17,39 @@
     box-shadow: $black-shadow;
   }
 
-  &__button {
-    position: relative;
-    top: -68px;
-    width: 63%;
-    padding: 1.25rem 18.5%;
-    background: linear-gradient(to right, #C32032 61%, rgba(255, 255, 255, 0.5) 108%);
-  }
+  &__cta {
+    position: absolute;
+    bottom: 0.25rem;
+    padding: 1.25rem 0;
+    display: block;
+    width: 100%;
+    background-color: #4972c1;
+    background: linear-gradient(to right, rgba(195, 32, 50, 0.8) 33%, $red 60%, $darker-red 108%);
+    background-size: 400% 400%;
+    background-position: 0 50%;
 
-  &__button:hover {
-    background-color: #C32032;
-    transition: ease-in 0.2s;
+    &:hover {
+      animation: gradientMove 3s infinite;
+    }
+    @keyframes gradientMove {
+      0% {
+        background-position: 0 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0 50%;
+      }
+    }
   }
 
   &__text {
     margin: 0;
     text-transform: uppercase;
-    color: #fff;
+    color: $white;
     font-weight: 600;
     text-align: center;
   }

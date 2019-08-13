@@ -6,6 +6,9 @@ $secondary-font: 'Gotham A', 'Gotham B' sans-serif;
 $dark-blue: #002131;
 $medium-blue: #007CBB;
 $light-blue: #40B5E4;
+$red: #C32032;
+$darker-red: #A51828;
+$white: #FFFFFF;
 
 // Gradients
 $top-gradient: linear-gradient(to bottom, #01117A, #2891C5 24%, rgba(white, 0.20) 49%, rgba(white, 0.20) 85%, white);
@@ -15,6 +18,6 @@ $bp-sm: 30.75rem;
 $bp-md:43.75rem;
 $bp-lg: 75rem;
 $bp-xl: 93.75rem;
-
+$bp-nav: 69.25rem;
 // Box Shadows
 $black-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
