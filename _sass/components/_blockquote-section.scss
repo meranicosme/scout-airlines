@@ -1,0 +1,31 @@
+.c-blockquote {
+  width: 100%;
+  padding: 4rem 0;
+  margin: 4rem auto;
+  background: #F4F4F4;
+
+&__image-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+&__image {
+width: 100%;
+margin: 0 auto 2rem;
+
+}
+
+&__text {
+margin: 0;
+font-size: 1.375rem;
+font-weight: 700;
+}
+
+&__source {
+text-transform: uppercase;
+font-weight: 700;
+font-size: 0.875rem;
+line-height: 1.3;
+}
+}
