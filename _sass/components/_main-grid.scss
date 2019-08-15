@@ -7,15 +7,19 @@
 
     @media (min-width: 35.625rem) {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
       grid-gap: 4rem;
     }
 
-    @media (min-width: $bp-md) {
+    @media (min-width: $bp-sm) {
       grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     }
 
-    @media (min-width: $bp-lg) {
+    @media (min-width: 80rem) {
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+
+    @media (min-width: $bp-xl) {
       grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     }
   }
