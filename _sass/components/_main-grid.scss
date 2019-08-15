@@ -1,0 +1,31 @@
+.c-main-grid {
+  width: 80%;
+  margin: 4rem auto;
+
+  &__list {
+    width: 100%;
+
+    @media (min-width: 35.625rem) {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+      grid-gap: 4rem;
+    }
+
+    @media (min-width: $bp-md) {
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+
+    @media (min-width: $bp-lg) {
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+  }
+
+  &__list-item {
+    width: 100%;
+    margin: 4rem 0;
+
+    @media (min-width: 570px) {
+      margin: 0;
+    }
+  }
+}
