@@ -26,6 +26,10 @@
     background-size: 400% 400%;
     background-position: 0 50%;
 
+    @media (min-width: $bp-sm){
+      padding: 2rem 0;
+    }
+
     &:hover {
       animation: gradientMove 3s infinite;
     }
@@ -50,5 +54,9 @@
     color: $white;
     font-weight: 600;
     text-align: center;
+
+    @media (min-width: $bp-sm){
+      font-size: 1.125rem;
+    }
   }
 }
