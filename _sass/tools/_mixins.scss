@@ -32,6 +32,11 @@
   line-height: 1.3;
 }
 
+@mixin link-hover-light-blue {
+  color: $light-blue;
+  transition: color ease 0.5s;
+}
+
 @mixin display-flex-row-center-start {
   width: 100%;
   display: flex;

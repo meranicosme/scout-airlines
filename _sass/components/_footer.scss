@@ -66,6 +66,10 @@
     line-height: 1.5;
     text-decoration: none;
 
+    &:hover {
+    @include link-hover-light-blue;
+  }
+
     &--underlined {
       color: $white;
       text-decoration: underline;
@@ -135,6 +139,10 @@
 
   &__copyright-link {
     color: $white;
+
+    &:hover {
+    @include link-hover-light-blue;
+  }
   }
 
   &__logo-container {
