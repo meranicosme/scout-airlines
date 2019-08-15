@@ -1,0 +1,11 @@
+<main class="c-main-grid">
+    <ul class="c-main-grid__list">
+      <!-- this is a loop that make multiple cards -->
+      {% for card in page.card %}
+      <li class="c-main-grid__list-item">
+        <!-- I'm including my isngle component here, deleted it from my index to include this main -->
+        {% include single-main-grid.html %}
+      </li>
+      {% endfor %}
+    </ul>
+</main>

@@ -4,10 +4,10 @@ $secondary-font: 'Gotham A', 'Gotham B' sans-serif;
 
 // Colors
 $dark-blue: #002131;
-$medium-blue: #0599e3;
-$light-blue: #46CAFF;
+$medium-blue: #007CBB;
+$light-blue: #40B5E4;
 $red: #C32032;
-$darker-red: #7F1520;
+$darker-red: #921624;
 $white: #FFFFFF;
 
 // Gradients
@@ -23,3 +23,13 @@ $bp-footer-sm: 31.25rem;
 
 // Box Shadows
 $black-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
+
+//
+$spacer: 2rem;
+
+$gap-xs: $spacer * 0.25;
+$gap-sm: $spacer * 0.5;
+$gap-md: $spacer;
+$gap-lg: $spacer * 1.5;
+$gap-xl: $spacer * 3;
+$gap-xxl: $spacer * 5;
