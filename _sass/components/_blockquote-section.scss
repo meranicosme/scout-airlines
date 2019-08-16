@@ -1,31 +1,42 @@
 .c-blockquote {
   width: 100%;
-  padding: 4rem 0;
+  padding: 6rem 0;
   margin: 4rem auto;
   background: #F4F4F4;
 
-&__image-container {
-  width: 80%;
-  margin: 0 auto;
-}
+  &__image-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
 
+  &__image {
+    width: 100%;
+    max-width: 64.875rem;
+    margin: 0 auto 2rem;
+    
+    @media (min-width: $bp-md) {
+      background-image: linear-gradient (to-right, (rgba(255, 255 ,255, 0)), (rgba(255, 255 ,255, 1)));
+    }
+  }
 
-&__image {
-width: 100%;
-margin: 0 auto 2rem;
+  &__text {
+    margin: 0;
+    font-size: 1.375rem;
+    font-weight: 700;
 
-}
+    @media (min-width: $bp-xl) {
+      position: absolute;
+      top: 14rem;
+      left: 57rem;
+      font-size: 3rem;
+    }
+  }
 
-&__text {
-margin: 0;
-font-size: 1.375rem;
-font-weight: 700;
-}
-
-&__source {
-text-transform: uppercase;
-font-weight: 700;
-font-size: 0.875rem;
-line-height: 1.3;
-}
+  &__source {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.3;
+  }
 }
