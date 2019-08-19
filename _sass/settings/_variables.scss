@@ -3,12 +3,12 @@ $heading-font: aktiv-grotesk, sans-serif;
 $secondary-font: 'Gotham A', 'Gotham B' sans-serif;
 
 // Colors
-$dark-blue: #002131;
-$medium-blue: #007CBB;
-$light-blue: #40B5E4;
-$red: #C32032;
-$darker-red: #921624;
-$white: #FFFFFF;
+$c-daintree: #002131;
+$c-lochmara: #007CBB;
+$c-picton-blue: #40B5E4;
+$c-cardinal: #C32032;
+$c-tamarillo: #921624;
+$c-pure-white: #FFFFFF;
 
 // Gradients
 $top-gradient: linear-gradient(to bottom, #01117A, #2891C5 24%, rgba(white, 0.20) 49%, rgba(white, 0.20) 85%, white);
@@ -24,7 +24,7 @@ $bp-footer-sm: 31.25rem;
 // Box Shadows
 $black-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
 
-//
+//Spacing
 $spacer: 2rem;
 
 $gap-xs: $spacer * 0.25;

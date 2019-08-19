@@ -25,7 +25,7 @@
 }
 
 @mixin uppercase-white-font {
-  color: $white;
+  color: $c-pure-white;
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 600;
@@ -33,7 +33,7 @@
 }
 
 @mixin link-hover-light-blue {
-  color: $light-blue;
+  color: $c-picton-blue;
   transition: color ease 0.5s;
 }
 

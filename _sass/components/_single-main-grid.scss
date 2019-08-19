@@ -22,7 +22,7 @@
     display: block;
     width: 100%;
     background-color: #4972c1;
-    background: linear-gradient(to right, rgba(195, 32, 50, 0.8) 33%, $red 60%, $darker-red 108%);
+    background: linear-gradient(to right, rgba(195, 32, 50, 0.8) 33%, $c-cardinal 60%, $c-tamarillo 108%);
     background-size: 400% 400%;
     background-position: 0 50%;
 
@@ -51,7 +51,7 @@
   &__text {
     margin: 0;
     text-transform: uppercase;
-    color: $white;
+    color: $c-pure-white;
     font-weight: 600;
     text-align: center;
 

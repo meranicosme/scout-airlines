@@ -18,10 +18,6 @@
     @media (min-width: 80rem) {
       grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     }
-
-    @media (min-width: $bp-xl) {
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    }
   }
 
   &__list-item {
