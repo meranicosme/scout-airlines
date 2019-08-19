@@ -1,3 +1,8 @@
+$bp-quote-sm: 62.5rem;
+$bp-quote-md: 86.25rem;
+$bp-quote-lg: 106.25rem;
+$bp-quote-xl: 125rem;
+
 .c-blockquote {
   width: 100%;
   padding: 6rem 0;
@@ -10,19 +15,35 @@
     position: relative;
   }
 
-&__image-container{
-  position: relative;
-  width: 100%;
-  height: 100%;
- }
+  &__image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
 
   &__image-container {
     width: 100%;
-    max-width: 64.875rem;
+    max-width: 37.5rem;
     margin: 0 auto 2rem;
 
-    @media (min-width: $bp-sm){
+    @media (min-width: $bp-sm) {
       margin: 0;
+    }
+
+    @media (min-width: $bp-quote-sm) {
+      max-width: 37.875rem;
+    }
+
+    @media (min-width: $bp-quote-md) {
+      max-width: 47.875rem;
+    }
+
+    @media (min-width: $bp-quote-lg) {
+      max-width: 59.875rem;
+    }
+
+    @media (min-width: $bp-quote-xl) {
+      max-width: 68.875rem;
     }
   }
 
@@ -30,32 +51,52 @@
     width: 100%;
   }
 
-
   &__gradient-container:after {
     position: absolute;
     width: 100%;
     height: 99.4%;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 1) 100%,);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 1) 100%,);
     left: 0;
     top: 0;
     content: '';
   }
 
-&__text-container {
+  &__text-container {
     margin: 2rem 0 0;
-}
+  }
 
   &__text {
     margin: 0;
     font-size: 1.375rem;
     font-weight: 700;
 
-
-    @media (min-width: 2000px) {
+    @media (min-width: 50rem) {
       position: absolute;
-      top: 14rem;
-      left: 57rem;
+      top: 5rem;
+      left: 26rem;
+      font-size: 1.5rem;
+    }
+
+    @media (min-width: $bp-quote-sm) {
+      font-size: 2rem;
+    }
+
+    @media (min-width: $bp-quote-md) {
+      top: 10rem;
+      left: 39rem;
+      font-size: 2rem;
+    }
+
+    @media (min-width: $bp-quote-lg) {
+      top: 12rem;
+      left: 40rem;
       font-size: 3rem;
+    }
+
+    @media (min-width: $bp-quote-xl) {
+      top: 14rem;
+      left: 56rem;
+      font-size: 3.5rem;
     }
   }
 
