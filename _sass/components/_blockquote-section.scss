@@ -7,7 +7,7 @@ $bp-quote-xl: 125rem;
   width: 100%;
   padding: 6rem 0;
   margin: 4rem auto;
-  background: #F4F4F4;
+  background: $c-wild-sand;
 
   &__inner-container {
     width: 80%;
@@ -19,10 +19,6 @@ $bp-quote-xl: 125rem;
     position: relative;
     width: 100%;
     height: 100%;
-  }
-
-  &__image-container {
-    width: 100%;
     max-width: 37.5rem;
     margin: 0 auto 2rem;
 
@@ -84,7 +80,6 @@ $bp-quote-xl: 125rem;
     @media (min-width: $bp-quote-md) {
       top: 10rem;
       left: 39rem;
-      font-size: 2rem;
     }
 
     @media (min-width: $bp-quote-lg) {
