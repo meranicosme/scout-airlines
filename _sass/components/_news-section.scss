@@ -73,6 +73,10 @@
     }
   }
 
+  &__link--border:hover {
+    color: $c-lochmara;
+  }
+
   &__link--border::after {
     content: '';
     display: block;
@@ -90,7 +94,7 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 0.875rem;
-    
+
     @media (min-width: $bp-sm) {
       font-size: 1rem;
     }
