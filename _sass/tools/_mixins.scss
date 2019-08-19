@@ -45,3 +45,10 @@
   flex-wrap: wrap;
   align-items: flex-start;
 }
+
+@mixin display-flex-news {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
