@@ -7,7 +7,7 @@
     width: 80%;
     margin: 0 auto;
 
-    @include display-flex-copyright;
+    @include display-flex-row-center-center ;
   }
 
   &__image {
@@ -23,14 +23,11 @@
   }
 
   &__text {
-    font-size: 1rem;
+    font-size: 1.125rem;
     line-height: 1.3;
     margin: 0 auto;
+    text-align: center;
 
-    @media(min-width: $bp-sm) {
-      font-size: 1.125rem;
-    }
-    
     @media (min-width: 64.375rem) {
       margin: 0;
     }

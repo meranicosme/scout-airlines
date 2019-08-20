@@ -53,7 +53,7 @@
   align-items: center;
 }
 
-@mixin display-flex-copyright {
+@mixin display-flex-row-center-center {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
