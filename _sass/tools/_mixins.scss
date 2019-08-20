@@ -46,7 +46,7 @@
   align-items: flex-start;
 }
 
-@mixin display-flex-news {
+@mixin display-flex-row-center-space-between{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
