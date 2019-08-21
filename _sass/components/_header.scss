@@ -49,17 +49,19 @@
   }
 
   &__sub-list {
-    display: none;
     pointer-events: none;
     background: $c-pure-white;
     box-shadow: $black-shadow;
     position: absolute;
     top: 100%;
+    opacity: 0;
   }
 
-    &__list-item:active > &__sub-list {
+    &__list-item--is-active > &__sub-list {
       display: block;
       pointer-events: all;
+      opacity: 1;
+      transition: opacity ease-in-out 0.5s;
     }
 
   &__sub-link {
@@ -113,4 +115,7 @@
     margin: 0 0 0 0.25rem;
   }
 
+  &__arrow--is-active {
+    transform: rotate(180deg);
+  }
 }
