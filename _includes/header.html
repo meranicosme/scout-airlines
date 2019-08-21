@@ -1,42 +1,75 @@
-<header>
+<header class="c-header">
   <nav class="c-navigation">
-    <div class="c-navigation__container-mobile">
-      <div class="c-navigation__mobile">
-          <a href="#">
-            <img src="assets/scout-logo-white.svg" class="c-navigation__logo" alt="Scout Airlines logo">
-          </a>
-          <a href="#" class="c-navigation_mobile-menu"><svg width="18" height="15" xmlns="http://www.w3.org/2000/svg" alt="Menu icon">
-              <g stroke="#FFF" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square">
-                <path d="M1.5 13.99h16.143M1.5 7.99h16.143M1.5 1.99h16.143" />
-              </g>
-            </svg>
-          </a>
-          </div>
-      </div>
+    <div class="c-navigation__logo-container">
+      <a href="#">
+        <img src="assets/scout-logo-white.svg" class="c-header__logo-image" alt="Scout Airlines logo">
+      </a>
     </div>
-    <div class="c-navigation__container-desktop">
-      <div class="c-navigation__desktop">
-          <a href="#">
-            <img src="assets/scout-logo-white.svg" class="c-navigation__logo" alt="Scout Airlines logo">
-          </a>
-        <ul class="c-navigation__list">
-          <li class="c-navigation__list-item">
-            <a href="#" class="c-navigation__link">Pilots</a>
-          </li>
-          <li class="c-navigation__list-item">
-            <a href="#" class="c-navigation__link">Mechanics &<br>Maintenance</a>
-          </li>
-          <li class="c-navigation__list-item">
-            <a href="#" class="c-navigation__link">Flight<br>Attendants</a>
-          </li>
-          <li class="c-navigation__list-item">
-            <a href="#" class="c-navigation__link">More Airline<br>Careers</a>
-          </li>
-          <li class="c-navigation__list-item">
-            <a href="#" class="c-navigation__link">Life at Scout</a>
-          </li>
-        </ul>
-      </div>
+    <div class="c-navigation__container-small">
+      <button class="c-navigation__-small-button">
+        <svg width="32" height="40" viewBox="0 0 20 16">
+          <path d="M1 1, 19 1 M1 8, 19 8 M1 15, 19 15" stroke="#FFF" stroke-width="2" fill="none" />
+        </svg>
+      </button>
+    </div>
+    <div class="c-navigation__container-large">
+      <ul class="c-navigation__list">
+        <li class="c-navigation__list-item">
+          <!-- this should be a button ^ -->
+          <a href="#" class="c-navigation__link">Pilots</a>
+          <ul class="c-navigation__sub-list">
+            <li class="c-navigation__sub-list-item">
+              <a href="#" class="c-navigation__sub-link">First Officers</a>
+            </li>
+            <li class="c-navigation__sub-list-item">
+              <a href="#" class="c-navigation__sub-link">Cadets</a>
+            </li>
+            <li class="c-navigation__sub-list-item">
+              <a href="#" class="c-navigation__sub-link">Rotor Transition Program</a>
+            </li>
+          </ul>
+        </li>
+        <li class="c-navigation__list-item">
+          <a href="#" class="c-navigation__link">Mechanics &<br>Maintenance</a>
+          <ul class="c-navigation__sub-list">
+            <li class="c-navigation__sub-list-item">
+              <a href="#" class="c-navigation__sub-link">Mechanics & Maintenance Careers</a>
+            </li>
+            <li class="c-navigation__sub-list-item">
+              <a href="#" class="c-navigation__sub-link">Maintenance Military Transition Program</a>
+            </li>
+            <li class="c-navigation__sub-list-item">
+              <a href="#" class="c-navigation__sub-link">Maintenance Student Pathway</a>
+            </li>
+          </ul>
+        </li>
+        <li class="c-navigation__list-item">
+          <a href="#" class="c-navigation__link">Flight<br>Attendants</a>
+        </li>
+        <li class="c-navigation__list-item">
+          <a href="#" class="c-navigation__link">More Airline<br>Careers</a>
+        </li>
+        <li class="c-navigation__list-item">
+          <a href="#" class="c-navigation__link">Life at Scout</a>
+          <ul class="c-navigation__sub-list">
+            <li class="c-navigation__sub-list-item">
+              <a href="#" class="c-navigation__sub-link">About</a>
+            </li>
+            <li class="c-navigation__sub-list-item">
+              <a href="#" class="c-navigation__sub-link">Culture</a>
+            </li>
+            <li class="c-navigation__sub-list-item">
+              <a href="#" class="c-navigation__sub-link">Fleet</a>
+            </li>
+            <li class="c-navigation__sub-list-item">
+              <a href="#" class="c-navigation__sub-link">Leadership</a>
+            </li>
+            <li class="c-navigation__sub-list-item">
+              <a href="#" class="c-navigation__sub-link">Route Map</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </nav>
-</header>  
+</header>
